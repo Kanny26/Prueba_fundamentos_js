@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 182, 182);
+}
+
+.ejercicios{
+    width: 100px;
+    height: 250px;
+    background-color: rgb(255, 218, 175);
+}
+
