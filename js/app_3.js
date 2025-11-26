@@ -4,4 +4,8 @@ let numero = Number(prompt("Ingrese el numero para mostrar la tabla: "));
 
 let tabla = generarTabla(numero);
 
-alert(`Tabla del ${numero}: \n ${numero} x  =  ${tabla}`);
+let texto = alert(`Tabla del ${numero}: \n`);
+
+for(let i = 1; i <= 10; i++){
+    texto += (`${numero} X ${i} = ${tabla[i-1]}\n`);
+}

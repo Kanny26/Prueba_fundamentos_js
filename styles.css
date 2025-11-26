@@ -8,12 +8,44 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(219, 219, 219);
 }
 
-.ejercicios{
-    width: 100px;
-    height: 250px;
-    background-color: rgb(255, 218, 175);
+main{
+    margin-top: 50px;
+    width: 640px;
+    height: 550px;
+    font-size: 20px;
+    background-color: rgb(184, 184, 184);
+    border-radius: 10px;
+}
+h1{
+    margin-left: 30px;
 }
 
+h3{
+    margin-left: 50px;
+}
+ul{
+    margin-top: 10px;
+    list-style: none;
+}
+
+li{
+    margin-bottom: 10px;
+    margin: 20px 20px;
+
+}
+
+a{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: teal;
+    text-decoration: none;
+    color:aliceblue
+}
+a:hover{
+    background-color: rgb(144, 121, 144);
+}

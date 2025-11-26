@@ -18,4 +18,4 @@ let resultado = calcularPromedio(notas);
 //debe mostrar el resultado que obtuvo y la clasificacion que obtuvo
 alert(`Promedio final: ${resultado.promedio} y rendimiento: ${resultado.rendimiento_aprendiz}`)
 
-alert(resultado);
+// alert(resultado);

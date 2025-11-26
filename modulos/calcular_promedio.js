@@ -14,21 +14,24 @@ export function calcularPromedio (notas){
     let promedio = suma / notas.length;
 
     //la variable rendimiento_aprendiz como un string vacio para almacenar el rendimiento obtenido 
-    let redimiento_aprendiz = "";
+    let rendimiento_aprendiz = "";
 
     //se evaluara el promedio y el rendimiento que obtuvo
     if(promedio >= 4.5){
-        redimiento_aprendiz = "Alto";
+        rendimiento_aprendiz = "Alto";
     }
     else if(promedio < 4.5 && promedio >= 3.0){
-        redimiento_aprendiz = "Medio";
+        rendimiento_aprendiz = "Medio";
     }
     else {
-        redimiento_aprendiz = "Bajo"
+        rendimiento_aprendiz = "Bajo"
     }
 
     //mostrara el promedio y el rendimiento que obtuvo el aprendiz
-    return promedio, redimiento_aprendiz
+    return {
+        Promedio:  promedio,
+        Rendimiento: rendimiento_aprendiz
+    }
 
 }
 

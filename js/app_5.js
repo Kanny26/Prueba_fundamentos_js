@@ -8,7 +8,7 @@ for (let i = 1; i <= cantidad; i++){
     lista.push(valor);
 }
 
-let elementobuscar = prompt("ingresa el elemento a buscar: "):
+let elementobuscar = prompt("ingresa el elemento a buscar: ")
 
 let encontrado = buscarELemento(lista, elementobuscar);
 
